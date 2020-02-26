@@ -2,7 +2,7 @@
 
 Monitor changes of a supplied shell command.
 
-[![demo](https://asciinema.org/a/OoYxvY16YlBMBn4Rv9C8gUarh)](https://asciinema.org/a/OoYxvY16YlBMBn4Rv9C8gUarh?autoplay=1)
+[![demo](https://asciinema.org/a/OoYxvY16YlBMBn4Rv9C8gUarh.svg)](https://asciinema.org/a/OoYxvY16YlBMBn4Rv9C8gUarh?autoplay=1)
 
 ## Quick intro
 
