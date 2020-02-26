@@ -8,9 +8,9 @@ Monitor changes of a supplied shell command.
 
 taildiff lets you monitor/record the changes of a shell command.
 
-Supply the shell command with `-c '<command>'`, e.g. `-c 'grep processes /proc/stat'`.
+`-c '<command>'` supplies the shell command, e.g. `-c 'grep processes /proc/stat'`.
 
-The default update interval is 1 second, change it with `-n <duration>`, e.g. `-n 0.3s`
+`-n <duration>` is optional. It supplies update interval, e.g. `-n 0.3s`. Default is 1s.
 
 Other options are available too:
 
