@@ -1,3 +1,1 @@
-taildiff
-*.test
-*.out
+bin/*
