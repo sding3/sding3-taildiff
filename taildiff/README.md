@@ -6,7 +6,7 @@ Monitor changes of a supplied shell command's output.
 
 ## Quick intro
 
-taildiff lets you monitor/record the changes of a shell command.
+taildiff lets you monitor/record the changes of a shell command's output.
 
 `-c '<command>'` supplies the shell command, e.g. `-c 'grep processes /proc/stat'`.
 
@@ -34,17 +34,4 @@ Examples:
 taildiff -c 'grep processes /proc/stat' -no-newline -time-stamp
 taildiff -c 'grep processes /proc/stat'
 taildiff -c 'netstat -tupn' -time-stamp
-```
-
-## Installation
-
-### Compile from source
-
-First download and install [go](https://golang.org/doc/install) if you don't have it, then perform the following.
-
-```
-git clone https://github.com/sding3/taildiff.git
-cd taildiff
-make build
-sudo make install # installs to /usr/loca/bin/taildiff
 ```
